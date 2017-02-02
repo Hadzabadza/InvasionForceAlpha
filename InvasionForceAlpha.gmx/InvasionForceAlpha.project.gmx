@@ -5,9 +5,19 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\SPRT_directional</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\TILESET_testTS</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\OBJ_testUnit</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\MAP_testRoom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
