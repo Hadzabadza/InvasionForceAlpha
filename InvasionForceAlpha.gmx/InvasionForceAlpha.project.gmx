@@ -7,13 +7,25 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\SPRT_directional</sprite>
+    <sprite>sprites\TEMP</sprite>
+    <sprite>sprites\SPRT_Solid</sprite>
+    <sprite>sprites\SPRT_Destructible</sprite>
+    <sprite>sprites\SPRT_Door</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\TILESET_testTS</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\OBJ_testUnit</object>
+    <objects name="PLAYER">
+      <object>objects\OBJ_testUnit</object>
+    </objects>
+    <objects name="TILES">
+      <object>objects\OBJ_Solid</object>
+      <object>objects\OBJ_Destructible</object>
+      <object>objects\OBJ_Door</object>
+    </objects>
+    <object>objects\CTRL</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MAP_testRoom</room>
