@@ -14,6 +14,11 @@
   </sprites>
   <backgrounds name="background">
     <background>background\TILESET_testTS</background>
+    <background>background\TILESET_test2</background>
+    <backgrounds name="Fences">
+      <background>background\TILESET_Fence_Default</background>
+      <background>background\TILESET_Fence_Wood</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">

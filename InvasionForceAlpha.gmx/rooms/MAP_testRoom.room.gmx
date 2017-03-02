@@ -6,7 +6,7 @@
   <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
-  <speed>30</speed>
+  <speed>60</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
@@ -111,7 +111,7 @@ global.Keys[0]=true;</code>
     <instance objName="OBJ_Solid" x="320" y="-16" name="inst_C91EAB80" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Solid" x="320" y="656" name="inst_07F18647" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OBJ_Solid" x="-16" y="320" name="inst_5A7F7428" locked="0" code="" scaleX="1" scaleY="20" colour="4294967295" rotation="0"/>
-    <instance objName="CTRL" x="-32" y="-32" name="inst_801DD49D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CTRL" x="-16" y="-16" name="inst_801DD49D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="TILESET_testTS" x="0" y="0" w="32" h="32" xo="64" yo="0" id="10000029" name="inst_59CDB508" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -262,11 +262,6 @@ global.Keys[0]=true;</code>
     <tile bgName="TILESET_testTS" x="480" y="0" w="32" h="32" xo="0" yo="0" id="10000497" name="inst_848D3E72" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="464" y="0" w="32" h="32" xo="0" yo="0" id="10000498" name="inst_E308F11A" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="448" y="0" w="32" h="32" xo="0" yo="0" id="10000499" name="inst_5353E0B8" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="TILESET_testTS" x="432" y="0" w="32" h="32" xo="0" yo="0" id="10000500" name="inst_73D2EBA1" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="TILESET_testTS" x="416" y="0" w="32" h="32" xo="0" yo="0" id="10000501" name="inst_2A28858A" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="TILESET_testTS" x="400" y="0" w="32" h="32" xo="0" yo="0" id="10000502" name="inst_81965D13" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="TILESET_testTS" x="384" y="0" w="32" h="32" xo="0" yo="0" id="10000503" name="inst_5E7E1478" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="TILESET_testTS" x="368" y="0" w="32" h="32" xo="0" yo="0" id="10000504" name="inst_86BE0E63" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="352" y="0" w="32" h="32" xo="0" yo="0" id="10000505" name="inst_61416014" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="336" y="0" w="32" h="32" xo="0" yo="0" id="10000506" name="inst_24EDB42C" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="320" y="0" w="32" h="32" xo="0" yo="0" id="10000507" name="inst_F9AB2CF9" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -611,8 +606,10 @@ global.Keys[0]=true;</code>
     <tile bgName="TILESET_testTS" x="480" y="352" w="32" h="32" xo="0" yo="0" id="10000955" name="inst_BCCC2009" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="464" y="352" w="32" h="32" xo="0" yo="0" id="10000956" name="inst_83BA6FA0" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="448" y="352" w="32" h="32" xo="0" yo="0" id="10000957" name="inst_0170C3D4" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="TILESET_testTS" x="512" y="0" w="32" h="32" xo="0" yo="0" id="10000958" name="inst_F8BA2090" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="TILESET_testTS" x="544" y="0" w="32" h="32" xo="0" yo="96" id="10000959" name="inst_4CF1E6E0" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="TILESET_testTS" x="384" y="0" w="32" h="32" xo="0" yo="0" id="10000975" name="inst_26864E39" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="TILESET_testTS" x="416" y="0" w="32" h="32" xo="0" yo="0" id="10000976" name="inst_03B6F17A" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="TILESET_testTS" x="512" y="0" w="32" h="32" xo="0" yo="0" id="10000978" name="inst_09C24B1A" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
