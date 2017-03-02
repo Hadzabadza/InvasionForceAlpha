@@ -17,7 +17,9 @@
     <background>background\TILESET_test2</background>
     <backgrounds name="Fences">
       <background>background\TILESET_Fence_Default</background>
+      <background>background\TILESET_Fence_Chain</background>
       <background>background\TILESET_Fence_Wood</background>
+      <background>background\TILESET_Fence_Metal</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -34,6 +36,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\MAP_testRoom</room>
+    <room>rooms\MAP_Level0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
