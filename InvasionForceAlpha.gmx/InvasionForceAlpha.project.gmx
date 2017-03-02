@@ -11,10 +11,10 @@
     <sprite>sprites\SPRT_Solid</sprite>
     <sprite>sprites\SPRT_Destructible</sprite>
     <sprite>sprites\SPRT_Door</sprite>
+    <sprite>sprites\SPRT_Key</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\TILESET_testTS</background>
-    <background>background\TILESET_test2</background>
     <backgrounds name="Fences">
       <background>background\TILESET_Fence_Default</background>
       <background>background\TILESET_Fence_Chain</background>
@@ -33,10 +33,11 @@
       <object>objects\OBJ_Door</object>
     </objects>
     <object>objects\CTRL</object>
+    <object>objects\OBJ_Key</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\MAP_testRoom</room>
     <room>rooms\MAP_Level0</room>
+    <room>rooms\MAP_testRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

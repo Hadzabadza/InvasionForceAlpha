@@ -1140,6 +1140,20 @@ else
       </action>
       <action>
         <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>403</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -1182,12 +1196,83 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with (instance_nearest(x+MoveToX,y+MoveToY,OBJ_Destructible)){instance_destroy();}
-tile_delete(tile_layer_find(1,x+MoveToX,y+MoveToY));
-tile_add(TILESET_testTS,0,0,32,32,x+MoveToX-16,y+MoveToY-16,1);
+            <string>with (instance_nearest(x+MoveToX,y+MoveToY,OBJ_Destructible)){
+    tile_delete(tile_layer_find(1,x,y));
+    //tile_add(TILESET_testTS,0,0,32,32,x-16,y-16,1);
+    instance_destroy();
+}
+
 </string>
           </argument>
         </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>403</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>OBJ_Key</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>MoveToX</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>MoveToY</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (instance_nearest(x+MoveToX,y+MoveToY,OBJ_Key)){
+    global.Active=0;
+global.Debug=true;
+    global.Keys[Key]=true;
+    instance_destroy();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
     <event eventtype="10" enumb="1">
